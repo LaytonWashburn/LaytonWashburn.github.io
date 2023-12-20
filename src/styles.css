@@ -1,31 +1,65 @@
 body{
     margin: 0;
+    padding: 0;
 }
+
+/* 
+
+https://hookagency.com/blog/website-color-schemes-2020/
+
+Ice Cold: #a0d2eb
+
+Freeze Purple: #e5eaf5
+
+Medium Purple: #d0bdf4
+
+Purple Pain: #8458B3
+
+Heavy Purple: #a28089 
+
+Grey #494d5f
+
+*/
 
 .navbar{
     display: flex;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 16px;
     width: 100%;
-    gap: 8px;
-    background-color: #C0C0C0;
+    gap: 16px;
+    background-color: #a0d2eb;
 }
 
 .links{
     text-decoration: none;
-    color: #5F9EA0;
+    color: #8458B3;
 }
 
 .links:hover{
     font-weight: bold;
     color: #7FFFD4;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .ResumeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    width: 100%;
+    margin: 0;
     padding-top: 50.4px;
+    background-color: #D3D3D3;
 }
 
 .text{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    width: 100%;
     padding-top: 50.4px;   
 }
