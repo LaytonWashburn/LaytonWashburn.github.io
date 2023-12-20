@@ -7,7 +7,6 @@ import {
   createHashRouter, 
   RouterProvider 
 } from 'react-router-dom'
-import { Resume } from './components/Resume.jsx'
 
 const router = createHashRouter([
   {
