@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    padding: 16px;
+    width: 100%;
+    gap: 8px;
+    background-color: #C0C0C0;
+}
+
+.links{
+    text-decoration: none;
+    color: #5F9EA0;
+}
+
+.links:hover{
+    font-weight: bold;
+    color: #7FFFD4;
+    transform: scale(1.1);
+}
+
+.ResumeMain{
+    padding-top: 50.4px;
+}
+
+.text{
+    padding-top: 50.4px;   
+}
