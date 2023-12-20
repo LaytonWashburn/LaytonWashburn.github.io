@@ -4,7 +4,7 @@ export function Navbar(){
 
     return(
         <nav>
-            <Link>Resume</Link>
+            <Link to={"/Navbar"}>Resume</Link>
             <Link>Classes</Link>
             <Link>Projects</Link>
         </nav>
