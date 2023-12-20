@@ -21,6 +21,16 @@ Grey #494d5f
 
 */
 
+/*
+Sand Tan: #e1b382
+
+Sand Tan Shadow: #c89666
+
+Night Blue: #2d545e
+
+Night Blue Shadow: #12343b
+*/
+
 .navbar{
     display: flex;
     position: fixed;
@@ -63,3 +73,62 @@ Grey #494d5f
     width: 100%;
     padding-top: 50.4px;   
 }
+
+
+/*
+    Home Styling
+*/
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*
+    Loading Spinners
+*/
+
+.circleSpinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    letter-spacing: 4px;
+    color: red;
+    font-size: large;
+    text-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px blacks;
+    border: 3px solid rgba(192, 192, 192, 10);
+}
+
+.circleSpinner::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px transparent;
+    border-top: red solid;
+    border-right: red solid;
+    animation: rotations 1s linear infinite;
+    box-sizing: border-box;
+}
+
+.circleSpinner:hover{
+    font-weight: bold;
+    transition: font-size 0.5s ease;
+    font-size: xx-large;
+}
+
+@keyframes rotations {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }   
+} 
