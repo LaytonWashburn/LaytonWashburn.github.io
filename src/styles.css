@@ -5,21 +5,7 @@ body{
 }
 
 /* 
-
 https://hookagency.com/blog/website-color-schemes-2020/
-
-Ice Cold: #a0d2eb
-
-Freeze Purple: #e5eaf5
-
-Medium Purple: #d0bdf4
-
-Purple Pain: #8458B3
-
-Heavy Purple: #a28089 
-
-Grey #494d5f
-
 */
 
 /*
@@ -188,8 +174,8 @@ Grey #494d5f
 .closed{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around;
-    align-items: flex-start; */
+    justify-content: space-around;
+    align-items: flex-start;
     left: 0;
     position: absolute;
     gap: 8px;
