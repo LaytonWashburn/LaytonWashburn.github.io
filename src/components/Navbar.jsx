@@ -9,7 +9,7 @@ export function Navbar(){
             <Link to={"/"} className="links">SKILLS</Link>
             <Link to={"/Resume"} className="links">Resume</Link>
             <Link className="links">Classes</Link>
-            <Link className="links">Projects</Link>
+            <Link className="links" to={"/Projects"}>Projects</Link>
         </nav>
     )
 }

@@ -5,7 +5,7 @@ body{
 }
 
 #main{
-    height: 100vh;
+    height: 100px;
 }
 /* 
 https://hookagency.com/blog/website-color-schemes-2020/
@@ -74,6 +74,62 @@ https://hookagency.com/blog/website-color-schemes-2020/
     cursor: pointer;
 }
 
+/*
+  Navdrawer
+*/
+
+.closed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    width: 100px;
+    gap: 16px;
+    overflow: auto;
+    background-color: white;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    transform: translateX(-1000px);
+    background-color: #FFCB9A;
+
+}
+
+.open{
+    transform: translateX(0px);
+} 
+
+.drawerlink{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#settings-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#settings{
+    margin: 36px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #116466;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black;
+}
+
+#settings:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 12px black;
+    color: grey;
+}
+
 
 /*
     Home Styling
@@ -95,12 +151,12 @@ https://hookagency.com/blog/website-color-schemes-2020/
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 500px;
-    border-radius: 375px;
-    letter-spacing: 24px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    letter-spacing: 8px;
     color: #8458B3;
-    font-size: xx-large;
+    font-size: large;
     text-shadow: 0 0 20px #8458B3;
     box-shadow: 0 0 20px blacks;
     border: 3px solid rgba(192, 192, 192, 10);
@@ -109,8 +165,8 @@ https://hookagency.com/blog/website-color-schemes-2020/
 .circleSpinner::before{
     content: "";
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 3px transparent;
     border-top: #8458B3 solid;
@@ -122,6 +178,7 @@ https://hookagency.com/blog/website-color-schemes-2020/
 .circleSpinner:hover{
     font-weight: bold;
     transition: font-size 0.5s ease;
+    border-radius: 50%;
     font-size: 3em;
 }
 
@@ -164,54 +221,3 @@ https://hookagency.com/blog/website-color-schemes-2020/
   }
 
 
-/*
-  Navdrawer
-*/
-
-.closed{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    position: absolute;
-    gap: 8px;
-    height: 250px;
-    overflow: auto;
-    background-color: white;
-    font-weight: bold;
-    transition: transform 0.5s ease;
-    transform: translateX(-1000px);
-    background-color: #FFCB9A;
-
-}
-
-.open{
-    transform: translateX(0px);
-} 
-
-.drawerlink{
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-#settings-container{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#settings{
-    margin: 36px;
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 0;
-    border-radius: 50%;
-    border: transparent;
-    background-color: #116466;
-    color: white;
-    font-weight: bold;
-}
-
-#settings:hover{
-    transform: scale(1.2);
-}
