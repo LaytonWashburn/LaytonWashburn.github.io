@@ -10,7 +10,6 @@ export function Navdrawer({styles}){
             <Link className="drawerlink">Skills</Link>
             <Link className="drawerlink">Bio</Link>
             <Link className="drawerlink">Career Goals</Link>
-            <Link className="drawerlink">Settings</Link>
         </section>
     )
 }

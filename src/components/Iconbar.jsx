@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Navdrawer } from "./Navdrawer";
 import "../styles.css"
 
@@ -22,13 +22,15 @@ export function Iconbar(){
 
 
     return(
-        <div className="Iconbar">
-            <span className="label"onClick={open}>
-                <span className="material-symbols-outlined" >
-                    menu
+        <div>
+            <div className="Iconbar">
+                <span className="label"onClick={open}>
+                    <span className="material-symbols-outlined" >
+                        menu
+                    </span>
+                    Menu
                 </span>
-                Menu
-            </span>
+            </div>
             <Navdrawer styles={style}/>
         </div>
 

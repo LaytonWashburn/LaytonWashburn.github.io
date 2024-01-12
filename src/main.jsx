@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { Home } from './components/Home.jsx'
 import { Resume } from './components/Resume.jsx'
+import { Settings } from './components/Settings.jsx'
 import { 
   createHashRouter, 
   RouterProvider 
@@ -20,6 +21,10 @@ const router = createHashRouter([
       {
         path: "/Resume",
         element: <Resume/>
+      },
+      {
+        path: "/Settings",
+        element: <Settings/>
       }
     ]
   }
