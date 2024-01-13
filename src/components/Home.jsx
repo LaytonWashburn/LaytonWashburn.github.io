@@ -1,9 +1,9 @@
-import "../styles.css"
+import "../www/Home.css"
 
 export function Home(){
 
     return(
-        <div className="Home">
+        <div className="home">
             <div className="circleSpinner">
                 <span className="loading">WELCOME</span>
             </div>  

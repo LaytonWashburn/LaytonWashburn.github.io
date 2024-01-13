@@ -8,12 +8,18 @@ function App() {
 
   return (
     <div id='main'> 
-      <Navbar/>
-      <Iconbar/>
-      <Outlet/>
+      <div id='navbar-container'>
+        <Navbar/>        
+      </div>
+      <div id='iconbar-container'>
+        <Iconbar/>
+      </div>
+      <div id='outlet-container'>
+        <Outlet/>
+      </div>
       <div id='settings-container'>
         <button id='settings'>
-          <Link className='links' to={"/Settings"}>
+          <Link id='settings-link' to={"/Settings"}>
             <span className="material-symbols-outlined" >
                 settings
             </span>

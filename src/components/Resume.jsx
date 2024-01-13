@@ -4,7 +4,7 @@ export function Resume() {
 
 
     return(
-        <div className="main">
+        <div className="resume">
             <div>Layton Washburn</div>
             <div>Objective</div>
             <div>Education</div>

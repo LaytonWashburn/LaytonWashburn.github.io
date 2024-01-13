@@ -22,6 +22,7 @@ export function Iconbar(){
 
 
     return(
+        <>
             <div className="Iconbar">
                 <span className="label"onClick={open}>
                     <span className="material-symbols-outlined" >
@@ -29,7 +30,8 @@ export function Iconbar(){
                     </span>
                     Menu
                 </span>
-                <Navdrawer styles={style}/>
             </div>
+            <Navdrawer styles={style}/>
+        </>
     )
 }
