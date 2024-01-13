@@ -2,6 +2,60 @@ body{
     height: 100vh;
 }
 
+.box{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.filler{
+    width: 25%;
+    background-color: grey;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+}
+
+.resume-flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between-box{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+
+.resume-title-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resume-title{
+    font-weight: bold;
+    font-size: large;
+}
+
+.resume-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.resume-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -14,3 +68,4 @@ body{
 .section-header{
     font-weight: bold;
 }
+

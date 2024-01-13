@@ -17,8 +17,8 @@ function App() {
       <div id='outlet-container'>
         <Outlet/>
       </div>
-      <div id='settings-container'>
-        <button id='settings'>
+      <div id='setting-container'>
+        <button id='setting'>
           <Link id='settings-link' to={"/Settings"}>
             <span className="material-symbols-outlined" >
                 settings
