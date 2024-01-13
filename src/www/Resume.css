@@ -2,6 +2,11 @@ body{
     height: 100vh;
 }
 
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 .box{
     display: flex;
     justify-content: space-between;
@@ -12,11 +17,11 @@ body{
     width: 25%;
     background-color: grey;
 }
+
 .resume{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     height: 100%;
     width: 50%;
 }
@@ -30,7 +35,12 @@ body{
 .space-between-box{
     display: flex;
     justify-content: space-between;
-    padding-right: 16px;
+    width: 100%;
+}
+
+.margin-box{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .resume-title-box{
@@ -42,6 +52,11 @@ body{
 .resume-title{
     font-weight: bold;
     font-size: large;
+    margin-left: 2%;
+}
+
+.resume-title-container{
+    width: 100%;
 }
 
 .resume-end{
@@ -52,20 +67,11 @@ body{
 
 .resume-start{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.main{
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    background-color: #D3D3D3;
+    justify-content: flex-start;
 }
 
-.section-header{
-    font-weight: bold;
+.padding-adj{
+    padding: 0px;
+    margin-left: 5%;
 }
-

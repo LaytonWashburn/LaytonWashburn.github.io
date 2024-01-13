@@ -159,6 +159,7 @@ body{
 }
 
 #setting{
+    position: absolute;
     border: transparent;
     height: 50px;
     width: 50px;
